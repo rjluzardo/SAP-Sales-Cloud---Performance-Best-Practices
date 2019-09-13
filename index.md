@@ -17,9 +17,9 @@
 
 [Information required](https://blogs.sap.com/2017/08/09/information-required-by-sap-when-submitting-incidents-related-to-performance-for-sap-hybris-cloud-for-customer/) by SAP when submitting performance incidents
 
-##Expert Analysis     
+## Expert Analysis     
 
-  User Experience/ Client
+ User Experience/ Client
 How-To: Troubleshoot High Client time
 How-To: Troubleshoot high load time of home page
 How-To: Troubleshoot high run time in reporting
