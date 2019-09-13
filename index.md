@@ -3,13 +3,13 @@
 ## Performance 101
 
 
-This blog walks through the process of understanding and analyzing performance in SAP Hybris Cloud for Customer (C4C). It also describes the various performance metric attributes and provides link(s) on what to do next.
+[This blog] (https://blogs.sap.com/2018/01/23/c4c-performance-101/) walks through the process of understanding and analyzing performance in SAP Hybris Cloud for Customer (C4C). It also describes the various performance metric attributes and provides link(s) on what to do next.
 
 
 ## Basic Analysis
 
 
-How-To: View performance statistics of the last user interaction
+How-To: View performance statistics of the last user interaction 
 
 How-To: Troubleshoot Cold Browsers
 
