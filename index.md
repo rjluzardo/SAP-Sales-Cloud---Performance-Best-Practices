@@ -12,6 +12,15 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+
+The intention of these blogs is to break down performance analysis into simple tasks so that users and admins can take necessary actions to understand and troubleshoot what may be causing slowness in their implementations. We have also categorized these blogs into basic and expert so that general users along with admins can drill down into performance issues based on their comfort levels. These blogs are as a result of feedback from various constituencies including customers, partners and SAP colleagues in (Support, CEE, MCC, CoE and Expert Services).
+
+You comments and suggestions are welcome.
+
+Thank you!
+
+Performance Team
+
 ## Header 2
 ### Header 3
 
