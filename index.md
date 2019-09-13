@@ -19,24 +19,35 @@
 
 ## Expert Analysis     
 
- User Experience/ Client
-How-To: Troubleshoot High Client time
-How-To: Troubleshoot high load time of home page
-How-To: Troubleshoot high run time in reporting
-How-To: Disable payload compression for troubleshooting purposes
-  Customizations
-How-To: Troubleshoot PDI/ Cloud SDK
-How-To: Troubleshoot high Web Service time
-How-To: High Workflow time 
-How-To: Troubleshoot high BRF time (coming soon)
-  Network
-How-To: Identify internal vs external networks during troubleshooting
-How-to: Troubleshoot network issues
-How-To: Identify high network latency and bandwidth 
-  Proactive Troubleshooting
-How-To: Use Solution Diagnostics for identifying performance bottlenecks
-  API/ Integration
-How-To: Use of ODATA response header to analyze backend response time
+### User Experience/ Client
+
+How-To: [Troubleshoot High Client time](https://blogs.sap.com/2018/01/17/sap-hybris-cloud-for-customer-troubleshoot-high-client-time/)
+How-To: [Troubleshoot high load time of home page](https://blogs.sap.com/2017/12/13/sap-hybris-cloud-for-customer-troubleshoot-high-load-time-of-home-page/)
+How-To: [Troubleshoot high run time in reporting](https://blogs.sap.com/2018/01/22/best-practices-for-sap-cloud-for-customer-analytics-reports-performance/)
+How-To: [Disable payload compression for troubleshooting purposes](https://blogs.sap.com/2018/01/23/how-to-disable-post-request-compression/)
+
+### Customizations
+
+How-To: [Troubleshoot PDI/ Cloud SDK](https://blogs.sap.com/2015/08/27/sap-cloud-application-studio-performance-best-practices/)
+How-To: [Troubleshoot high Web Service time](https://blogs.sap.com/2018/01/19/how-to-troubleshoot-external-web-service-calls/)
+How-To: [High Workflow time](https://blogs.sap.com/2017/08/24/sap-hybris-cloud-for-customer-workflow-best-practices/)
+  
+### Network
+
+How-To: [Identify internal vs external networks during troubleshooting](https://blogs.sap.com/2018/01/23/how-to-identify-internal-vs-external-networks/)
+How-to: [Troubleshoot network issues](https://blogs.sap.com/2018/01/23/how-to-troubleshoot-high-latency-networks-for-sap-cloud-for-customer/)
+How-To: [Identify high network latency and bandwidth](https://blogs.sap.com/2018/01/23/how-to-identify-high-network-latency-and-bandwidth-within-sap-cloud-for-customers/)
+[How different network conditions could influence the performance of Cloud for Customers](https://blogs.sap.com/2019/06/14/how-different-network-conditions-could-influence-the-performance-of-cloud-for-customers/)
+[How Akamai works in SAP Cloud for Customers](https://blogs.sap.com/2019/06/10/how-akamai-works-in-sap-cloud-for-customers/)
+
+### Proactive Troubleshooting
+
+How-To: [Use Solution Diagnostics for identifying performance bottlenecks](https://blogs.sap.com/2017/12/12/sap-hybris-cloud-for-customer-solution-diagnostics/)
+
+### API/ Integration
+
+How-To: [Use of ODATA response header to analyze backend response time](https://blogs.sap.com/2018/01/22/how-to-get-backend-server-response-times-from-odata-calls-in-c4c/)
+
 Performance Updates
 New! Performance improvements in 1802 
 
