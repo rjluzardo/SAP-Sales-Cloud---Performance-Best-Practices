@@ -22,22 +22,31 @@
 ### User Experience/ Client
 
 How-To: [Troubleshoot High Client time](https://blogs.sap.com/2018/01/17/sap-hybris-cloud-for-customer-troubleshoot-high-client-time/)
+
 How-To: [Troubleshoot high load time of home page](https://blogs.sap.com/2017/12/13/sap-hybris-cloud-for-customer-troubleshoot-high-load-time-of-home-page/)
+
 How-To: [Troubleshoot high run time in reporting](https://blogs.sap.com/2018/01/22/best-practices-for-sap-cloud-for-customer-analytics-reports-performance/)
+
 How-To: [Disable payload compression for troubleshooting purposes](https://blogs.sap.com/2018/01/23/how-to-disable-post-request-compression/)
 
 ### Customizations
 
 How-To: [Troubleshoot PDI/ Cloud SDK](https://blogs.sap.com/2015/08/27/sap-cloud-application-studio-performance-best-practices/)
+
 How-To: [Troubleshoot high Web Service time](https://blogs.sap.com/2018/01/19/how-to-troubleshoot-external-web-service-calls/)
+
 How-To: [High Workflow time](https://blogs.sap.com/2017/08/24/sap-hybris-cloud-for-customer-workflow-best-practices/)
   
 ### Network
 
 How-To: [Identify internal vs external networks during troubleshooting](https://blogs.sap.com/2018/01/23/how-to-identify-internal-vs-external-networks/)
+
 How-to: [Troubleshoot network issues](https://blogs.sap.com/2018/01/23/how-to-troubleshoot-high-latency-networks-for-sap-cloud-for-customer/)
+
 How-To: [Identify high network latency and bandwidth](https://blogs.sap.com/2018/01/23/how-to-identify-high-network-latency-and-bandwidth-within-sap-cloud-for-customers/)
+
 [How different network conditions could influence the performance of Cloud for Customers](https://blogs.sap.com/2019/06/14/how-different-network-conditions-could-influence-the-performance-of-cloud-for-customers/)
+
 [How Akamai works in SAP Cloud for Customers](https://blogs.sap.com/2019/06/10/how-akamai-works-in-sap-cloud-for-customers/)
 
 ### Proactive Troubleshooting
@@ -48,18 +57,6 @@ How-To: [Use Solution Diagnostics for identifying performance bottlenecks](https
 
 How-To: [Use of ODATA response header to analyze backend response time](https://blogs.sap.com/2018/01/22/how-to-get-backend-server-response-times-from-odata-calls-in-c4c/)
 
-Performance Updates
-New! Performance improvements in 1802 
-
-1802: https://blogs.sap.com/2018/02/15/1805-performance-update/
-
-1711: https://blogs.sap.com/2017/10/22/whats-new-in-c4c-performance-1711-edition/
-
-1708: Performance improvements include request payload compression and faster loading of static assets with CDN.
-
-1705: Enhancements include reduce cold starts wrt. implicit personalization, update of newer SAP UI libs, scrolling improvements in Fiori client
-
-1702: Enhancements include improvements in server times, mobile offline, TTI, pre-fetch of UI floorplan metadata
 
 Performance Best Practices
 
