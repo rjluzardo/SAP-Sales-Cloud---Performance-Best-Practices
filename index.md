@@ -25,6 +25,8 @@ Performance Team
 
 This blog walks through the process of understanding and analyzing performance in SAP Hybris Cloud for Customer (C4C). It also describes the various performance metric attributes and provides link(s) on what to do next.
 
+## Performance Best Practices
+
 ### Header 3
 
 - Bulleted
