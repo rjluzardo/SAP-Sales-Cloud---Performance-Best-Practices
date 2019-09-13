@@ -9,21 +9,15 @@
 ## Basic Analysis
 
 
-How-To: View performance statistics of the last user interaction 
+[How-To: View performance statistics of the last user interaction](https://blogs.sap.com/2018/01/23/how-to-view-performance-statistics-of-the-last-user-interaction/)
 
-How-To: Troubleshoot Cold Browsers
+[How-To: Troubleshoot Cold Browsers](https://blogs.sap.com/2018/01/23/sap-cloud-for-customer-how-to-troubleshoot-cold-browser-scenarios/)
 
-How-To: How to identify latency and bandwidth issues
+[How-To: How to identify latency and bandwidth issues](https://blogs.sap.com/2018/01/23/how-to-identify-high-network-latency-and-bandwidth-within-sap-cloud-for-customers/)
 
-Information required by SAP when submitting performance incidents
+[Information required](https://blogs.sap.com/2017/08/09/information-required-by-sap-when-submitting-incidents-related-to-performance-for-sap-hybris-cloud-for-customer/) by SAP when submitting performance incidents
 
-
-
-
-Expert Analysis     
-
-
- 
+##Expert Analysis     
 
   User Experience/ Client
 How-To: Troubleshoot High Client time
