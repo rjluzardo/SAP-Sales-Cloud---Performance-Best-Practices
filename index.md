@@ -150,23 +150,35 @@ The following blogs and links provide helpful links in understanding, troublesho
 
  
 
-Network Overview
-        Tools and Best Practices
-⚡ HowTo troubleshoot network issues Overview
-Identify bandwidth and latency issues using in-tenant tool
-How to check proper DNS resolution based in geolocation for SAP Cloud for Customer
-How to identify potential network problems in C4C using HTTP Watch
-How to validate routing of last mile in the context of SAP Cloud for Customer
-Server Overview
+# Network Overview
+
+Tools and Best Practices
+
+- [⚡ HowTo troubleshoot network issues Overview](https://blogs.sap.com/2016/05/28/how-sap-cloud-for-customers-could-be-affected-by-network-problems/)
+
+- [Identify bandwidth and latency issues using in-tenant tool](https://blogs.sap.com/2016/05/28/how-to-idetify-high-network-latency-and-bandwidth-within-sap-cloud-for-customers/)
+
+- [How to check proper DNS resolution based in geolocation for SAP Cloud for Customer](https://blogs.sap.com/2016/05/28/how-to-check-proper-dns-resolution-based-in-gelocation-for-sap-cloud-for-customer/)
+
+- [How to identify potential network problems in C4C using HTTP Watch](https://blogs.sap.com/2016/05/28/how-to-identify-potential-network-problems-in-c4c-using-http-watch/)
+
+- [How to validate routing of last mile in the context of SAP Cloud for Customer](https://blogs.sap.com/2016/05/28/how-to-validate-routing-of-last-mile-in-the-context-of-sap-cloud-for-customer/)
+
+# Server Overview
+
 Best Practices and How-Tos
-⚡ How to analyze impacts on server time due to sub-optimal customizations 
-How to troubleshoot sub-optimal reports performance
+
+- [⚡ How to analyze impacts on server time due to sub-optimal customizations](https://blogs.sap.com/2016/05/28/how-to-analyze-customization-impact-on-server-time/)
+
+- [How to troubleshoot sub-optimal reports performance](https://blogs.sap.com/2016/05/27/sap-cloud-for-customer-how-to-identify-sub-optimal-reports/)
+
 How to take HTTP Traces using browser DevTools
 
 
 Best viewed in full screen
 
-Cloud for Service Performance Best Practices
+## Cloud for Service Performance Best Practices
+
 Optimize the performance of your Cloud for Service implementation
 
 [Part 1](https://blogs.sap.com/2016/06/15/how-to-optimize-the-performance-of-your-cloud-for-service-implementation/)
