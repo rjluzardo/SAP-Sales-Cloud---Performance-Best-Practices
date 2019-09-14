@@ -152,7 +152,7 @@ The following blogs and links provide helpful links in understanding, troublesho
 
  
 
-# Network Overview
+## Network Overview
 
 Tools and Best Practices
 
@@ -166,7 +166,7 @@ Tools and Best Practices
 
 - [How to validate routing of last mile in the context of SAP Cloud for Customer](https://blogs.sap.com/2016/05/28/how-to-validate-routing-of-last-mile-in-the-context-of-sap-cloud-for-customer/)
 
-# Server Overview
+## Server Overview
 
 Best Practices and How-Tos
 
