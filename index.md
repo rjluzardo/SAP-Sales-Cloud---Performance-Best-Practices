@@ -21,41 +21,41 @@
 
 ### User Experience/ Client
 
-How-To: [Troubleshoot High Client time](https://blogs.sap.com/2018/01/17/sap-hybris-cloud-for-customer-troubleshoot-high-client-time/)
+- How-To: [Troubleshoot High Client time](https://blogs.sap.com/2018/01/17/sap-hybris-cloud-for-customer-troubleshoot-high-client-time/)
 
-How-To: [Troubleshoot high load time of home page](https://blogs.sap.com/2017/12/13/sap-hybris-cloud-for-customer-troubleshoot-high-load-time-of-home-page/)
+- How-To: [Troubleshoot high load time of home page](https://blogs.sap.com/2017/12/13/sap-hybris-cloud-for-customer-troubleshoot-high-load-time-of-home-page/)
 
-How-To: [Troubleshoot high run time in reporting](https://blogs.sap.com/2018/01/22/best-practices-for-sap-cloud-for-customer-analytics-reports-performance/)
+- How-To: [Troubleshoot high run time in reporting](https://blogs.sap.com/2018/01/22/best-practices-for-sap-cloud-for-customer-analytics-reports-performance/)
 
-How-To: [Disable payload compression for troubleshooting purposes](https://blogs.sap.com/2018/01/23/how-to-disable-post-request-compression/)
+- How-To: [Disable payload compression for troubleshooting purposes](https://blogs.sap.com/2018/01/23/how-to-disable-post-request-compression/)
 
 ### Customizations
 
-How-To: [Troubleshoot PDI/ Cloud SDK](https://blogs.sap.com/2015/08/27/sap-cloud-application-studio-performance-best-practices/)
+- How-To: [Troubleshoot PDI/ Cloud SDK](https://blogs.sap.com/2015/08/27/sap-cloud-application-studio-performance-best-practices/)
 
-How-To: [Troubleshoot high Web Service time](https://blogs.sap.com/2018/01/19/how-to-troubleshoot-external-web-service-calls/)
+- How-To: [Troubleshoot high Web Service time](https://blogs.sap.com/2018/01/19/how-to-troubleshoot-external-web-service-calls/)
 
-How-To: [High Workflow time](https://blogs.sap.com/2017/08/24/sap-hybris-cloud-for-customer-workflow-best-practices/)
+- How-To: [High Workflow time](https://blogs.sap.com/2017/08/24/sap-hybris-cloud-for-customer-workflow-best-practices/)
   
 ### Network
 
-How-To: [Identify internal vs external networks during troubleshooting](https://blogs.sap.com/2018/01/23/how-to-identify-internal-vs-external-networks/)
+- How-To: [Identify internal vs external networks during troubleshooting](https://blogs.sap.com/2018/01/23/how-to-identify-internal-vs-external-networks/)
 
-How-to: [Troubleshoot network issues](https://blogs.sap.com/2018/01/23/how-to-troubleshoot-high-latency-networks-for-sap-cloud-for-customer/)
+- How-to: [Troubleshoot network issues](https://blogs.sap.com/2018/01/23/how-to-troubleshoot-high-latency-networks-for-sap-cloud-for-customer/)
 
-How-To: [Identify high network latency and bandwidth](https://blogs.sap.com/2018/01/23/how-to-identify-high-network-latency-and-bandwidth-within-sap-cloud-for-customers/)
+- How-To: [Identify high network latency and bandwidth](https://blogs.sap.com/2018/01/23/how-to-identify-high-network-latency-and-bandwidth-within-sap-cloud-for-customers/)
 
-[How different network conditions could influence the performance of Cloud for Customers](https://blogs.sap.com/2019/06/14/how-different-network-conditions-could-influence-the-performance-of-cloud-for-customers/)
+- [How different network conditions could influence the performance of Cloud for Customers](https://blogs.sap.com/2019/06/14/how-different-network-conditions-could-influence-the-performance-of-cloud-for-customers/)
 
-[How Akamai works in SAP Cloud for Customers](https://blogs.sap.com/2019/06/10/how-akamai-works-in-sap-cloud-for-customers/)
+- [How Akamai works in SAP Cloud for Customers](https://blogs.sap.com/2019/06/10/how-akamai-works-in-sap-cloud-for-customers/)
 
 ### Proactive Troubleshooting
 
-How-To: [Use Solution Diagnostics for identifying performance bottlenecks](https://blogs.sap.com/2017/12/12/sap-hybris-cloud-for-customer-solution-diagnostics/)
+- How-To: [Use Solution Diagnostics for identifying performance bottlenecks](https://blogs.sap.com/2017/12/12/sap-hybris-cloud-for-customer-solution-diagnostics/)
 
 ### API/ Integration
 
-How-To: [Use of ODATA response header to analyze backend response time](https://blogs.sap.com/2018/01/22/how-to-get-backend-server-response-times-from-odata-calls-in-c4c/)
+- How-To: [Use of ODATA response header to analyze backend response time](https://blogs.sap.com/2018/01/22/how-to-get-backend-server-response-times-from-odata-calls-in-c4c/)
 
 
 Performance Best Practices
@@ -67,16 +67,17 @@ When a users browser has to fetch static content (C4C UI-floorplans, images, JS 
 
 Therefore if you have enabled settings in the browser that restricts or clears the cache then could get significantly slower response times. This also represents a cold browser interaction and can be monitored from the in-tenant reports. Please check the “identifying and troubleshooting” sections for more details. 
 
-[Recommended browser settings](https://blogs.sap.com/2017/04/20/recommended-browser-settings-for-sap-hybris-cloud-for-customer/)
+- [Recommended browser settings](https://blogs.sap.com/2017/04/20/recommended-browser-settings-for-sap-hybris-cloud-for-customer/)
 	
-[How to identify cold browsers](https://blogs.sap.com/2016/05/27/sap-cloud-for-customer-how-to-troubleshoot-cold-browser/)
+- [How to identify cold browsers](https://blogs.sap.com/2016/05/27/sap-cloud-for-customer-how-to-troubleshoot-cold-browser/)
 	
 ### 2. Client Hardware or Virtualization
+
 Client hardware such as the processor and the amount of memory available can be a significant factor in performance. Slow disk systems can also slow down the client as static assets are retrieved from the browser are not rendered quickly. When working in virtualized environments such as Citrix, please make sure that sufficient resources such as disk space are allocated for the users. If browser cache is set to delete on logoff then each time the user logs in, there will be significant slowdown.
 
 In browser dev tool, this can easily be detected by long SEND times or BLOCKED states.
 
-[How to troubleshoot high rendering times](https://blogs.sap.com/2016/05/19/howto-troubleshoot-high-rendering-time-in-the-browser/)
+- [How to troubleshoot high rendering times](https://blogs.sap.com/2016/05/19/howto-troubleshoot-high-rendering-time-in-the-browser/)
 	
 ### 3. Workflow Rules
 
@@ -84,13 +85,13 @@ Workflow rules can add to the server time if you have too many of them or you ha
 
 Workflow time can be monitored by check the “workflow time” in the performance historical data. For more details please see the server section in the “identifying and troubleshooting” guide below. 
 
-[Workflow best practices](https://blogs.sap.com/2017/08/24/sap-hybris-cloud-for-customer-workflow-best-practices/)
+- [Workflow best practices](https://blogs.sap.com/2017/08/24/sap-hybris-cloud-for-customer-workflow-best-practices/)
 	
 ### 4. Reports Design
 
 The design of a a report plays an important role. Reports are significantly impacted by the way data source and/or reports are modeled. All the rules for good SQL applies here. If you make outer joins on a field which has a large number of entries then your reports performance can get slow. There are several best practices rules in the “identifying and troubleshooting” guide below. 
 
-[How to troubleshoot sub-optimal reports performance](https://blogs.sap.com/2016/05/27/sap-cloud-for-customer-how-to-identify-sub-optimal-reports/)
+- [How to troubleshoot sub-optimal reports performance](https://blogs.sap.com/2016/05/27/sap-cloud-for-customer-how-to-identify-sub-optimal-reports/)
 	
 ### 5. Home Page Design
 
@@ -104,7 +105,7 @@ When customizations are made to the UI screens, additional roundtrips could be t
 
 The best place to check for best practices recommendations here is to check the “Solution Diagnostics” tool under the Administrator workcenter, in the system administration section. Here you would find valuable feedback in your PDI implementation. Also please check the “identifying and troubleshooting” guide below. 
 
-[SAP Cloud Application Studio Performance Best Practices](https://blogs.sap.com/2015/08/27/sap-cloud-application-studio-performance-best-practices/)
+- [SAP Cloud Application Studio Performance Best Practices](https://blogs.sap.com/2015/08/27/sap-cloud-application-studio-performance-best-practices/)
 	
 ### 8. External Synchronous Web Service Calls
 
@@ -113,7 +114,7 @@ Synchronous web service that invoke external business systems can add an overhea
 ### 9. Cloud Application Studio Deployments or KUT Activations
 Cloud SDK deployments and KUT activations can invalidate the cache. Therefore a new copy has to be retrieved over the network slowing down performance. As of 1702, UI-floorplan metadata is pre-fetched during login process. Therefore a good practice is to activate KUT changelists via content transfer during off business hours. Therefore please follow best practices for deploying the same. More information is available in the  “identifying and troubleshooting” guide below. 
 	
-[How-to measure performance impact due to multiple Embedded Components in a facet/tab](https://blogs.sap.com/2016/05/20/performance-impact-due-to-multiple-embedded-components-in-a-facettab/)
+-  [How-to measure performance impact due to multiple Embedded Components in a facet/tab](https://blogs.sap.com/2016/05/20/performance-impact-due-to-multiple-embedded-components-in-a-facettab/)
 	
 ### 10. Customer Network and the Internet
 
