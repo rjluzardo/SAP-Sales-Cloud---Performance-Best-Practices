@@ -122,7 +122,7 @@ Network plays a very important part in performance. Latency & bandwidth are two 
 
 Your best friend here is the in-tenant diagnostics tool accessible by url.
 
-[Network diagnostics tool:](https://my123456.crm.ondemand.com/sap/public/ap/ui/repository/BYD_COD/Common/Diagnostics/diagnostic_tests.html)
+- [Network diagnostics tool:](https://my123456.crm.ondemand.com/sap/public/ap/ui/repository/BYD_COD/Common/Diagnostics/diagnostic_tests.html)
 Please replace “123456” with your own tenant number. As long as latency is below 250ms and bandwidth greater than 1.5mbps you should have good response times.
  
 
@@ -131,7 +131,7 @@ Please replace “123456” with your own tenant number. As long as latency is b
 Best Practices Video
 
 
-Link to Presentation (slide#10 onwards) describes Top 10 best practices
+[Presentation (slide#10 onwards) describes Top 10 best practices](https://www.sap.com/documents/2016/06/b6a9c2c3-747c-0010-82c7-eda71af511fa.html)
 
 ## Identifying and Troubleshooting Performance Issues
 The following blogs and links provide helpful links in understanding, troubleshooting and following best practices in performance.
@@ -140,7 +140,8 @@ The following blogs and links provide helpful links in understanding, troublesho
 ### Client Overview
 
  Best Practices and How-Tos
-- [⚡ Recommended Browser Settings for SAP Hybris Cloud for Customer](https://blogs.sap.com/2017/04/20/recommended-browser-settings-for-sap-hybris-cloud-for-customer/)
+ 
+- [Recommended Browser Settings for SAP Hybris Cloud for Customer](https://blogs.sap.com/2017/04/20/recommended-browser-settings-for-sap-hybris-cloud-for-customer/)
 
 - [How to identify cold browser interactions](https://blogs.sap.com/2016/05/27/sap-cloud-for-customer-how-to-troubleshoot-cold-browser/)
 
@@ -155,7 +156,7 @@ The following blogs and links provide helpful links in understanding, troublesho
 
 Tools and Best Practices
 
-- [⚡ HowTo troubleshoot network issues Overview](https://blogs.sap.com/2016/05/28/how-sap-cloud-for-customers-could-be-affected-by-network-problems/)
+- [How To troubleshoot network issues Overview](https://blogs.sap.com/2016/05/28/how-sap-cloud-for-customers-could-be-affected-by-network-problems/)
 
 - [Identify bandwidth and latency issues using in-tenant tool](https://blogs.sap.com/2016/05/28/how-to-idetify-high-network-latency-and-bandwidth-within-sap-cloud-for-customers/)
 
@@ -169,7 +170,7 @@ Tools and Best Practices
 
 Best Practices and How-Tos
 
-- [⚡ How to analyze impacts on server time due to sub-optimal customizations](https://blogs.sap.com/2016/05/28/how-to-analyze-customization-impact-on-server-time/)
+- [How to analyze impacts on server time due to sub-optimal customizations](https://blogs.sap.com/2016/05/28/how-to-analyze-customization-impact-on-server-time/)
 
 - [How to troubleshoot sub-optimal reports performance](https://blogs.sap.com/2016/05/27/sap-cloud-for-customer-how-to-identify-sub-optimal-reports/)
 
@@ -182,12 +183,12 @@ Best viewed in full screen
 
 Optimize the performance of your Cloud for Service implementation
 
-[Part 1](https://blogs.sap.com/2016/06/15/how-to-optimize-the-performance-of-your-cloud-for-service-implementation/)
+- [Part 1](https://blogs.sap.com/2016/06/15/how-to-optimize-the-performance-of-your-cloud-for-service-implementation/)
 
 In customer service every second matters.  Angry customers don’t like to wait, and agents must to be able to address their questions promptly.  In order to deliver great customer service, agents should be supported by a well tuned system, optimized to provide the best experience with minimal response times
 
-[Part 2](https://blogs.sap.com/2016/06/22/optimize-the-performance-of-your-cloud-for-service-implementation-part-2/)
+- [Part 2](https://blogs.sap.com/2016/06/22/optimize-the-performance-of-your-cloud-for-service-implementation-part-2/)
 
-Customer Service agents are constantly working on a ticket after the other.  The time it takes for the ticket UI to open, and the time it takes to save a ticket after a change, are usually the two most important factors in determining the performance experienced by agents.  We will review several ways to optimize the Save step in Part 2.  In this section, let’s review a few ways in which you can optimize the time to Open.
+Customer Service agents are constantly working on a ticket after the other.  The time it takes for the ticket UI to open, and the time it takes to save a ticket after a change, are usually the two most important factors in determining the performance experienced by agents.  We will review several ways to optimize the Save step in [Part 2](https://blogs.sap.com/2016/06/22/optimize-the-performance-of-your-cloud-for-service-implementation-part-2/).  In this section, let’s review a few ways in which you can optimize the time to Open.
 
 For questions and suggestions please leave a comment
