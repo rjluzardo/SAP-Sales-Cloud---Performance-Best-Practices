@@ -68,27 +68,28 @@ When a users browser has to fetch static content (C4C UI-floorplans, images, JS 
 
 Therefore if you have enabled settings in the browser that restricts or clears the cache then could get significantly slower response times. This also represents a cold browser interaction and can be monitored from the in-tenant reports. Please check the “identifying and troubleshooting” sections for more details. 
 
-	[Recommended browser settings](https://blogs.sap.com/2017/04/20/recommended-browser-settings-for-sap-hybris-cloud-for-customer/)
+[Recommended browser settings](https://blogs.sap.com/2017/04/20/recommended-browser-settings-for-sap-hybris-cloud-for-customer/)
 	
-	[How to identify cold browsers](https://blogs.sap.com/2016/05/27/sap-cloud-for-customer-how-to-troubleshoot-cold-browser/)
+[How to identify cold browsers](https://blogs.sap.com/2016/05/27/sap-cloud-for-customer-how-to-troubleshoot-cold-browser/)
 	
 ###2 Client Hardware or Virtualization
 Client hardware such as the processor and the amount of memory available can be a significant factor in performance. Slow disk systems can also slow down the client as static assets are retrieved from the browser are not rendered quickly. When working in virtualized environments such as Citrix, please make sure that sufficient resources such as disk space are allocated for the users. If browser cache is set to delete on logoff then each time the user logs in, there will be significant slowdown.
 
 In browser dev tool, this can easily be detected by long SEND times or BLOCKED states.
 
-	[How to troubleshoot high rendering times](https://blogs.sap.com/2016/05/19/howto-troubleshoot-high-rendering-time-in-the-browser/)
+[How to troubleshoot high rendering times](https://blogs.sap.com/2016/05/19/howto-troubleshoot-high-rendering-time-in-the-browser/)
 	
 ####3 Workflow Rules
 Workflow rules can add to the server time if you have too many of them or you have written logic that adds quite a bit of overhead. Also, workflow rules with timing set to “On Create/On Every Create” are triggered synchronously and blocks the UI until the logic finishes running.
 
 Workflow time can be monitored by check the “workflow time” in the performance historical data. For more details please see the server section in the “identifying and troubleshooting” guide below. 
 
-	[Workflow best practices](https://blogs.sap.com/2017/08/24/sap-hybris-cloud-for-customer-workflow-best-practices/)
+[Workflow best practices](https://blogs.sap.com/2017/08/24/sap-hybris-cloud-for-customer-workflow-best-practices/)
 	
 ###4 Reports Design
 The design of a a report plays an important role. Reports are significantly impacted by the way data source and/or reports are modeled. All the rules for good SQL applies here. If you make outer joins on a field which has a large number of entries then your reports performance can get slow. There are several best practices rules in the “identifying and troubleshooting” guide below. 
-	[How to troubleshoot sub-optimal reports performance](https://blogs.sap.com/2016/05/27/sap-cloud-for-customer-how-to-identify-sub-optimal-reports/)
+
+[How to troubleshoot sub-optimal reports performance](https://blogs.sap.com/2016/05/27/sap-cloud-for-customer-how-to-identify-sub-optimal-reports/)
 	
 ###5 Home Page Design
 As of 1602, the home page design alerts you with a warning if you have too many tiles and reports on the home page. Also, please make sure if you really need the home page as the landing page since this can cause a long login process. Please refer to the“identifying and troubleshooting” guide below.  
@@ -99,7 +100,7 @@ When customizations are made to the UI screens, additional roundtrips could be t
 ###7 Cloud Application Development Studio (PDI)
 The best place to check for best practices recommendations here is to check the “Solution Diagnostics” tool under the Administrator workcenter, in the system administration section. Here you would find valuable feedback in your PDI implementation. Also please check the “identifying and troubleshooting” guide below. 
 
-	[SAP Cloud Application Studio Performance Best Practices](https://blogs.sap.com/2015/08/27/sap-cloud-application-studio-performance-best-practices/)
+[SAP Cloud Application Studio Performance Best Practices](https://blogs.sap.com/2015/08/27/sap-cloud-application-studio-performance-best-practices/)
 	
 ###8 External Synchronous Web Service Calls
 Synchronous web service that invoke external business systems can add an overhead if the providing business system is slow. Monitoring the WS Time in the performance historical data is a good practice. Please use tools such as SOAP UI etc to determine the performance of the external web service.
@@ -107,7 +108,7 @@ Synchronous web service that invoke external business systems can add an overhea
 ###9 Cloud Application Studio Deployments or KUT Activations
 Cloud SDK deployments and KUT activations can invalidate the cache. Therefore a new copy has to be retrieved over the network slowing down performance. As of 1702, UI-floorplan metadata is pre-fetched during login process. Therefore a good practice is to activate KUT changelists via content transfer during off business hours. Therefore please follow best practices for deploying the same. More information is available in the  “identifying and troubleshooting” guide below. 
 	
-	[How-to measure performance impact due to multiple Embedded Components in a facet/tab](https://blogs.sap.com/2016/05/20/performance-impact-due-to-multiple-embedded-components-in-a-facettab/)
+[How-to measure performance impact due to multiple Embedded Components in a facet/tab](https://blogs.sap.com/2016/05/20/performance-impact-due-to-multiple-embedded-components-in-a-facettab/)
 	
 ###10 Customer Network and the Internet
 Network plays a very important part in performance. Latency & bandwidth are two important aspects in getting a good end to end response. In the customer’s environment, landscape components such as proxy, web filtering etc can play an important role as well. Also internet conditions keeps changing therefore tools such as browser dev tools, traceroute etc can be very handy in troubleshooting the same.  
