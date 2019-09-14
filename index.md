@@ -80,6 +80,7 @@ In browser dev tool, this can easily be detected by long SEND times or BLOCKED s
 [How to troubleshoot high rendering times](https://blogs.sap.com/2016/05/19/howto-troubleshoot-high-rendering-time-in-the-browser/)
 	
 ####3 Workflow Rules
+
 Workflow rules can add to the server time if you have too many of them or you have written logic that adds quite a bit of overhead. Also, workflow rules with timing set to “On Create/On Every Create” are triggered synchronously and blocks the UI until the logic finishes running.
 
 Workflow time can be monitored by check the “workflow time” in the performance historical data. For more details please see the server section in the “identifying and troubleshooting” guide below. 
@@ -87,22 +88,27 @@ Workflow time can be monitored by check the “workflow time” in the performan
 [Workflow best practices](https://blogs.sap.com/2017/08/24/sap-hybris-cloud-for-customer-workflow-best-practices/)
 	
 ###4 Reports Design
+
 The design of a a report plays an important role. Reports are significantly impacted by the way data source and/or reports are modeled. All the rules for good SQL applies here. If you make outer joins on a field which has a large number of entries then your reports performance can get slow. There are several best practices rules in the “identifying and troubleshooting” guide below. 
 
 [How to troubleshoot sub-optimal reports performance](https://blogs.sap.com/2016/05/27/sap-cloud-for-customer-how-to-identify-sub-optimal-reports/)
 	
 ###5 Home Page Design
+
 As of 1602, the home page design alerts you with a warning if you have too many tiles and reports on the home page. Also, please make sure if you really need the home page as the landing page since this can cause a long login process. Please refer to the“identifying and troubleshooting” guide below.  
 
 ###6 UI Customizations
+
 When customizations are made to the UI screens, additional roundtrips could be triggered. Although many components are now loaded asynchronously there are some which still loads synchronously and this can cause slowness.
 
 ###7 Cloud Application Development Studio (PDI)
+
 The best place to check for best practices recommendations here is to check the “Solution Diagnostics” tool under the Administrator workcenter, in the system administration section. Here you would find valuable feedback in your PDI implementation. Also please check the “identifying and troubleshooting” guide below. 
 
 [SAP Cloud Application Studio Performance Best Practices](https://blogs.sap.com/2015/08/27/sap-cloud-application-studio-performance-best-practices/)
 	
 ###8 External Synchronous Web Service Calls
+
 Synchronous web service that invoke external business systems can add an overhead if the providing business system is slow. Monitoring the WS Time in the performance historical data is a good practice. Please use tools such as SOAP UI etc to determine the performance of the external web service.
 
 ###9 Cloud Application Studio Deployments or KUT Activations
@@ -111,11 +117,13 @@ Cloud SDK deployments and KUT activations can invalidate the cache. Therefore a 
 [How-to measure performance impact due to multiple Embedded Components in a facet/tab](https://blogs.sap.com/2016/05/20/performance-impact-due-to-multiple-embedded-components-in-a-facettab/)
 	
 ###10 Customer Network and the Internet
+
 Network plays a very important part in performance. Latency & bandwidth are two important aspects in getting a good end to end response. In the customer’s environment, landscape components such as proxy, web filtering etc can play an important role as well. Also internet conditions keeps changing therefore tools such as browser dev tools, traceroute etc can be very handy in troubleshooting the same.  
 
 Your best friend here is the in-tenant diagnostics tool accessible by url.
 
-	Network diagnostics tool: Please replace “123456” with your own tenant number. As long as latency is below 250ms and bandwidth greater than 1.5mbps you should have good response times.
+[Network diagnostics tool:](https://my123456.crm.ondemand.com/sap/public/ap/ui/repository/BYD_COD/Common/Diagnostics/diagnostic_tests.html)
+Please replace “123456” with your own tenant number. As long as latency is below 250ms and bandwidth greater than 1.5mbps you should have good response times.
  
 
  
